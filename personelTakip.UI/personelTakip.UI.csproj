@@ -131,6 +131,12 @@
     <Compile Include="FormMaaslar.Designer.cs">
       <DependentUpon>FormMaaslar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPerformans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPerformans.Designer.cs">
+      <DependentUpon>FormPerformans.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPersoneller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMaaslar.resx">
       <DependentUpon>FormMaaslar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerformans.resx">
+      <DependentUpon>FormPerformans.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPersoneller.resx">
       <DependentUpon>FormPersoneller.cs</DependentUpon>

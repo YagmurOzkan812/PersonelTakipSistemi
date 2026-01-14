@@ -46,6 +46,7 @@
     <Compile Include="Genel.cs" />
     <Compile Include="Izin.cs" />
     <Compile Include="Maas.cs" />
+    <Compile Include="Performans.cs" />
     <Compile Include="Personel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemelVarlik.cs" />

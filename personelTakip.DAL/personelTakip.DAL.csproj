@@ -94,6 +94,7 @@
     <Compile Include="DepartmanDeposu.cs" />
     <Compile Include="IzinDeposu.cs" />
     <Compile Include="MaasDeposu.cs" />
+    <Compile Include="PerformansDeposu.cs" />
     <Compile Include="PersonelDeposu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Veritabani.cs" />

@@ -26,6 +26,30 @@ namespace personelTakip.UI
         void VerileriGetir()
         {
             int benimId = Genel.AktifPersonelId;
+            
+
+            // 3. PERFORMANS LİSTESİ 
+            PerformansYoneticisi prfYonetici = new PerformansYoneticisi();
+            List<Performans> tumPerformanslar = prfYonetici.TumunuGetir();
+            List<Performans> benimPerformanslarim = new List<Performans>();
+
+            foreach (var p in tumPerformanslar)
+            {
+                if (p.PersonelId == benimId)
+                {
+                    benimPerformanslarim.Add(p);
+                }
+            }
+
+            // Listeyi tabloya bas
+            dataGridView3.DataSource = benimPerformanslarim;
+
+            // Gereksiz sütunları gizle 
+            if (dataGridView3.Columns["PersonelId"] != null)
+                dataGridView3.Columns["PersonelId"].Visible = false;
+
+            if (dataGridView3.Columns["PersonelAdSoyad"] != null)
+                dataGridView3.Columns["PersonelAdSoyad"].Visible = false;
 
             // Maaşlar
             MaasYoneticisi maasYonetici = new MaasYoneticisi();

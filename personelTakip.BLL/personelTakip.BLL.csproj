@@ -44,6 +44,7 @@
     <Compile Include="DepartmanYoneticisi.cs" />
     <Compile Include="IzinYoneticisi.cs" />
     <Compile Include="MaasYoneticisi.cs" />
+    <Compile Include="PerformansYoneticisi.cs" />
     <Compile Include="PersonelYoneticisi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

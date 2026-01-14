@@ -46,5 +46,11 @@ namespace personelTakip.UI
         {
             Application.Exit();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormPerformans form = new FormPerformans();
+            form.ShowDialog();
+        }
     }
 }

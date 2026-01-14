@@ -41,18 +41,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblAdSoyad
             // 
             this.lblAdSoyad.AutoSize = true;
             this.lblAdSoyad.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAdSoyad.Location = new System.Drawing.Point(135, 13);
+            this.lblAdSoyad.Location = new System.Drawing.Point(67, 9);
             this.lblAdSoyad.Name = "lblAdSoyad";
             this.lblAdSoyad.Size = new System.Drawing.Size(461, 72);
             this.lblAdSoyad.TabIndex = 0;
@@ -62,11 +66,12 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabControl1.Location = new System.Drawing.Point(145, 62);
+            this.tabControl1.Location = new System.Drawing.Point(66, 61);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(509, 356);
+            this.tabControl1.Size = new System.Drawing.Size(704, 380);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -75,19 +80,20 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 32);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(501, 269);
+            this.tabPage1.Size = new System.Drawing.Size(696, 344);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Maaşlarım";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Lavender;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(22, 15);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(439, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(684, 332);
             this.dataGridView1.TabIndex = 2;
             // 
             // tabPage2
@@ -103,13 +109,14 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 32);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(501, 320);
+            this.tabPage2.Size = new System.Drawing.Size(696, 344);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "İzinlerim";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // txtAciklama
             // 
+            this.txtAciklama.BackColor = System.Drawing.Color.Lavender;
             this.txtAciklama.Location = new System.Drawing.Point(208, 101);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(150, 29);
@@ -117,6 +124,7 @@
             // 
             // dtpBitis
             // 
+            this.dtpBitis.CalendarMonthBackground = System.Drawing.Color.Lavender;
             this.dtpBitis.Location = new System.Drawing.Point(208, 57);
             this.dtpBitis.Name = "dtpBitis";
             this.dtpBitis.Size = new System.Drawing.Size(250, 29);
@@ -124,6 +132,7 @@
             // 
             // dtpBaslangic
             // 
+            this.dtpBaslangic.CalendarMonthBackground = System.Drawing.Color.Lavender;
             this.dtpBaslangic.Location = new System.Drawing.Point(208, 22);
             this.dtpBaslangic.Name = "dtpBaslangic";
             this.dtpBaslangic.Size = new System.Drawing.Size(250, 29);
@@ -131,12 +140,13 @@
             // 
             // btnTalepEt
             // 
-            this.btnTalepEt.Location = new System.Drawing.Point(208, 142);
+            this.btnTalepEt.BackColor = System.Drawing.Color.Lavender;
+            this.btnTalepEt.Location = new System.Drawing.Point(539, 22);
             this.btnTalepEt.Name = "btnTalepEt";
-            this.btnTalepEt.Size = new System.Drawing.Size(125, 31);
+            this.btnTalepEt.Size = new System.Drawing.Size(125, 64);
             this.btnTalepEt.TabIndex = 4;
             this.btnTalepEt.Text = "OLUŞTUR";
-            this.btnTalepEt.UseVisualStyleBackColor = true;
+            this.btnTalepEt.UseVisualStyleBackColor = false;
             this.btnTalepEt.Click += new System.EventHandler(this.btnTalepEt_Click);
             // 
             // label3
@@ -168,19 +178,42 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.Lavender;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(27, 188);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(441, 115);
+            this.dataGridView2.Size = new System.Drawing.Size(646, 135);
             this.dataGridView2.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dataGridView3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 32);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(696, 344);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Performansım";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.Lavender;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
+            this.dataGridView3.RowTemplate.Height = 24;
+            this.dataGridView3.Size = new System.Drawing.Size(684, 332);
+            this.dataGridView3.TabIndex = 0;
             // 
             // FormCalisanPaneli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Menu;
+            this.ClientSize = new System.Drawing.Size(832, 453);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.lblAdSoyad);
             this.Name = "FormCalisanPaneli";
@@ -192,6 +225,8 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,5 +247,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.DataGridView dataGridView3;
     }
 }

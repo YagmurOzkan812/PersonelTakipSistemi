@@ -10,11 +10,11 @@ namespace personelTakip.UI
 {
     public static class ThemeHelper
     {
-        // Pastel Palette
-        public static readonly Color BackgroundColor = Color.FromArgb(253, 245, 230); // Old Lace (Warm White)
-        public static readonly Color ButtonColor = Color.FromArgb(174, 198, 207); // Pastel Blue
-        public static readonly Color ButtonTextColor = Color.FromArgb(60, 60, 60); // Dark Gray
-        public static readonly Color LabelTextColor = Color.FromArgb(80, 80, 80); // Soft Charcoal
+        // Modern Pastel Palette
+        public static readonly Color BackgroundColor = Color.FromArgb(245, 246, 250); // Lynx White (Cool very light grey/blue)
+        public static readonly Color ButtonColor = Color.FromArgb(162, 155, 254); // Soft Periwinkle
+        public static readonly Color ButtonTextColor = Color.White;
+        public static readonly Color LabelTextColor = Color.FromArgb(47, 54, 64); // Dark Gunmetal
         public static readonly Color TextBoxBackgroundColor = Color.White;
         public static readonly Color TextBoxTextColor = Color.Black;
         

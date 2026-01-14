@@ -7,7 +7,8 @@ namespace personelTakip.DAL
     public class Veritabani
     {
         //anahtar mysqle bağlar
-        private static string baglantiCumlesi = "Server=172.21.54.253; Database=26_132430040; Uid=26_132430040; Pwd=İnif123.;";
+        // Localhost connection (Default XAMPP/WAMP settings: User=root, Password="")
+        private static string baglantiCumlesi = "Server=localhost; Database=26_132430040; Uid=root; Pwd=;";
 
         public static MySqlConnection Baglan()
         {

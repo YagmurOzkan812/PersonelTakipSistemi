@@ -41,6 +41,7 @@
             // 
             // dprtmnTxtBox
             // 
+            this.dprtmnTxtBox.BackColor = System.Drawing.Color.Lavender;
             this.dprtmnTxtBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dprtmnTxtBox.Location = new System.Drawing.Point(195, 48);
             this.dprtmnTxtBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -50,6 +51,7 @@
             // 
             // aciklamaTxtBox
             // 
+            this.aciklamaTxtBox.BackColor = System.Drawing.Color.Lavender;
             this.aciklamaTxtBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.aciklamaTxtBox.Location = new System.Drawing.Point(195, 133);
             this.aciklamaTxtBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -79,15 +81,15 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkGray;
+            this.button1.BackColor = System.Drawing.Color.Lavender;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(669, 56);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(647, 48);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 118);
+            this.button1.Size = new System.Drawing.Size(137, 119);
             this.button1.TabIndex = 4;
             this.button1.Text = "KAYDET";
             this.button1.UseVisualStyleBackColor = false;
@@ -95,9 +97,10 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Lavender;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 317);
+            this.dataGridView1.Location = new System.Drawing.Point(33, 291);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -108,15 +111,15 @@
             // 
             // btnsil
             // 
-            this.btnsil.BackColor = System.Drawing.Color.DarkGray;
+            this.btnsil.BackColor = System.Drawing.Color.Lavender;
             this.btnsil.FlatAppearance.BorderSize = 0;
             this.btnsil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnsil.ForeColor = System.Drawing.Color.White;
-            this.btnsil.Location = new System.Drawing.Point(674, 317);
+            this.btnsil.ForeColor = System.Drawing.Color.Black;
+            this.btnsil.Location = new System.Drawing.Point(657, 286);
             this.btnsil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnsil.Name = "btnsil";
-            this.btnsil.Size = new System.Drawing.Size(137, 57);
+            this.btnsil.Size = new System.Drawing.Size(137, 62);
             this.btnsil.TabIndex = 6;
             this.btnsil.Text = "SİL";
             this.btnsil.UseVisualStyleBackColor = false;
@@ -124,12 +127,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.BackColor = System.Drawing.Color.Lavender;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(674, 433);
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(657, 407);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 62);
@@ -141,10 +144,9 @@
             // 
             // FormDepartmanlar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(834, 534);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Menu;
+            this.ClientSize = new System.Drawing.Size(832, 503);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnsil);
             this.Controls.Add(this.dataGridView1);
